@@ -1,0 +1,61 @@
+<resources>
+    <style name="RetailerBottomNavText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="DistBottomNavText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="FarmLedgerChip" parent="Widget.FarmLedger.Chip">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/fl_on_surface</item>
+        <item name="chipMinHeight">50dp</item>
+        <item name="chipCornerRadius">12dp</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipStrokeColor">@color/fl_outline</item>
+        <item name="chipBackgroundColor">@color/fl_surface_variant</item>
+        <item name="rippleColor">@color/fl_surface_variant</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ProfileItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/fl_on_surface</item>
+        <item name="android:drawableEnd">@drawable/ic_arrow</item>
+        <item name="android:drawablePadding">12dp</item>
+    </style>
+
+    <style name="BottomIcon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_margin">24dp</item>
+        <item name="android:tint">@color/fl_on_surface_variant</item>
+    </style>
+
+    <style name="AppWindowAnimations">
+        <item name="android:activityOpenEnterAnimation">@anim/at_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/at_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/at_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/at_close_exit</item>
+
+        <item name="android:taskOpenEnterAnimation">@anim/at_open_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/at_open_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/at_close_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/at_close_exit</item>
+
+        <item name="android:taskToFrontEnterAnimation">@anim/at_open_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/at_open_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/at_close_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/at_close_exit</item>
+    </style>
+</resources>

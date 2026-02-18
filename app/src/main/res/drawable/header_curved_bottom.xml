@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Green gradient base -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="135"
+                android:startColor="@color/fl_primary"
+                android:endColor="@color/fl_primary" />
+        </shape>
+    </item>
+
+    <!-- Curved bottom (same background as screen) -->
+    <item android:gravity="bottom">
+        <shape>
+            <solid android:color="@color/fl_background" />
+            <corners
+                android:topLeftRadius="40dp"
+                android:topRightRadius="40dp" />
+            <size android:height="84dp" />
+        </shape>
+    </item>
+
+</layer-list>

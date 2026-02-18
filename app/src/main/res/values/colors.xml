@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">@color/fl_on_surface</color>
+
+    <!-- FarmLedger palette -->
+    <color name="fl_primary">#2E7D32</color>
+    <color name="fl_on_primary">#FFFFFF</color>
+    <color name="fl_primary_container">#C8E6C9</color>
+    <color name="fl_on_primary_container">#1B5E20</color>
+
+    <color name="fl_secondary">#8D6E63</color>
+    <color name="fl_on_secondary">#FFFFFF</color>
+    <color name="fl_secondary_container">#D7CCC8</color>
+    <color name="fl_on_secondary_container">#4E342E</color>
+
+    <color name="fl_tertiary">#F9A825</color>
+    <color name="fl_on_tertiary">#3E2723</color>
+    <color name="fl_tertiary_container">#FFE082</color>
+    <color name="fl_on_tertiary_container">#5D4037</color>
+
+    <color name="fl_background">#F6F7F2</color>
+    <color name="fl_surface">#FFFFFF</color>
+    <color name="fl_surface_variant">#E9ECE4</color>
+    <color name="fl_on_surface">#1F2A24</color>
+    <color name="fl_on_surface_variant">#5F6B63</color>
+    <color name="fl_outline">#CBD5C8</color>
+
+    <color name="fl_error">#D32F2F</color>
+    <color name="fl_on_error">#FFFFFF</color>
+    <color name="fl_success">#2E7D32</color>
+    <color name="fl_warning">#F9A825</color>
+
+    <!-- Legacy aliases to preserve references -->
+    <color name="green_light">@color/fl_primary_container</color>
+    <color name="green_primary">@color/fl_primary</color>
+    <color name="orange_light">@color/fl_tertiary_container</color>
+    <color name="orange_primary">@color/fl_tertiary</color>
+    <color name="nav_purple">@color/fl_primary</color>
+    <color name="nav_grey">@color/fl_on_surface_variant</color>
+    <color name="surface">@color/fl_surface</color>
+    <color name="primary">@color/fl_primary</color>
+    <color name="primaryDark">@color/fl_on_primary_container</color>
+
+    <color name="textPrimary">@color/fl_on_surface</color>
+    <color name="textSecondary">@color/fl_on_surface_variant</color>
+    <color name="textHint">@color/fl_on_surface_variant</color>
+
+    <color name="orange">@color/fl_warning</color>
+    <color name="orangeDark">@color/fl_on_tertiary</color>
+    <color name="green">@color/fl_primary</color>
+    <color name="greenDark">@color/fl_on_primary_container</color>
+</resources>
