@@ -4,6 +4,9 @@
     <color name="fl_on_primary">#0B1F0D</color>
     <color name="fl_primary_container">#1B3A1F</color>
     <color name="fl_on_primary_container">#C8E6C9</color>
+    <color name="fl_primary5B">#5B81C784</color>
+    <color name="fl_primaryFF">#FF81C784</color>
+    <color name="fl_primary_containerFF">#FF1B3A1F</color>
 
     <color name="fl_secondary">#BCAAA4</color>
     <color name="fl_on_secondary">#3E2723</color>
@@ -20,12 +23,15 @@
     <color name="fl_surface_variant">#1C241E</color>
     <color name="fl_on_surface">#E6ECE7</color>
     <color name="fl_on_surface_variant">#A9B4AC</color>
+    <color name="fl_on_surface00">#00E6ECE7</color>
     <color name="fl_outline">#2D3A31</color>
 
     <color name="fl_error">#EF9A9A</color>
     <color name="fl_on_error">#3B0A0A</color>
+    <color name="fl_on_error00">#003B0A0A</color>
     <color name="fl_success">#81C784</color>
     <color name="fl_warning">#FFD54F</color>
+    <color name="fl_success44">#4481C784</color>
 
     <color name="white">#FFFFFF</color>
     <color name="black">@color/fl_on_surface</color>
